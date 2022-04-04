@@ -1,0 +1,149 @@
+body{
+    background-color: #f1e1c2;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+.intro{
+    text-align: center;
+    
+}
+
+.city{
+    text-align: center;
+}
+
+.ct{
+    text-align: center;
+    width: 85%;
+    /* margin-left: 5%; */
+}
+.cape{
+    text-align: center;
+}
+
+.city_text{
+    margin: 10px;
+
+}
+.language{
+    text-align: center;
+}
+
+/* styling table information */
+td, th {
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+  }
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  /* foregin container content  */
+
+  .limpopo{
+      text-align: center;
+  }
+
+  
+/* .mapungube_text{
+    float: right;
+    width: 45%;
+} */
+
+.mapungube_pic{
+    width: 60%;
+    float: right;
+    margin: 5px;
+    
+}
+
+.makapan_pic{
+    width: 60%;
+    float: left ;
+    margin: 5px;
+}
+
+
+.kruger_pic{
+    width: 60%;
+    float: right;
+    margin: 5px;
+}
+
+
+
+@media(min-width: 720px){
+
+    /* the intro section  */
+    .pro_pic{
+        padding-top: 1em;
+        border-radius: 50px;
+        padding-right: 1em;
+    }
+    .name{
+        float: left;
+        width: 40%;
+        padding-left: 3em;
+        padding-top: 2.5em;
+        
+    }
+
+    /* which city section  */
+
+    .city{
+        display: flex;
+
+    }
+    .ct{
+        flex: 1;
+    }
+    .city_text{
+        flex:2;
+    }
+
+    /* foreign language  */
+    .foreign_text{
+        text-align: center;
+    }
+
+    /* historical places section  */
+
+    .historical{
+         
+        display: flex;
+        /* flex-direction: row-reverse; */
+        
+        
+    }
+
+    .place1{
+        flex: 1.5;
+        margin: 5px;
+    }
+    .place2{
+        flex: 1.5;
+        margin: 5px;
+        
+        
+
+    }
+    .place3{
+        flex: 1.5;
+        margin: 5px;
+    }
+
+    #pic2{
+        float: right;
+
+    }
+
+        
+        
+    
+    
+
+  
+}
