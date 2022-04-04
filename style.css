@@ -72,7 +72,9 @@ td, th {
     float: right;
     margin: 5px;
 }
-
+table{
+    border-collapse : collapse ;
+}
 
 
 @media(min-width: 720px){
