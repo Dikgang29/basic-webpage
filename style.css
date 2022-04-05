@@ -86,12 +86,12 @@ table{
     .pro_pic{
         padding-top: 1em;
         border-radius: 50px;
-        margin-right: 350px ;
+        padding-right: 340px ;
     }
     .name{
         float: left;
         width: 40%;
-       margin-left: 250px;
+       padding-left: 250px;
         padding-top: 2.5em;
         
     }
