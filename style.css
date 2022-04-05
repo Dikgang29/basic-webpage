@@ -76,6 +76,7 @@ table{
     border-collapse : collapse ;
     margin-left: auto;
     margin-right: auto;
+    width:fit-content;
     
 }
 
@@ -83,15 +84,22 @@ table{
 @media(min-width: 720px){
 
     /* the intro section  */
+    .intro {
+        width: 75%;
+        margin: auto; 
+        overflow: none;
+
+   
+    }
     .pro_pic{
         padding-top: 1em;
         border-radius: 50px;
-        padding-right: 340px ;
+        
     }
     .name{
         float: left;
         width: 40%;
-       padding-left: 250px;
+       
         padding-top: 2.5em;
         
     }
